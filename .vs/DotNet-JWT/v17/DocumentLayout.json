@@ -1,0 +1,373 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HFB\\Github\\DotNet-JWT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|d:\\hfb\\github\\dotnet-jwt\\app.application\\features\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|solutionrelative:app.application\\features\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|d:\\hfb\\github\\dotnet-jwt\\app.application\\features\\authentication\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|solutionrelative:app.application\\features\\authentication\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|d:\\hfb\\github\\dotnet-jwt\\app.application\\features\\authentication\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|solutionrelative:app.application\\features\\authentication\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|d:\\hfb\\github\\dotnet-jwt\\app.application\\features\\token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|solutionrelative:app.application\\features\\token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|d:\\hfb\\github\\dotnet-jwt\\app.application\\features\\token\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|solutionrelative:app.application\\features\\token\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA95269-34A8-4F67-B41C-F5EFDFAD7D5C}|App.Domain\\App.Domain.csproj|d:\\hfb\\github\\dotnet-jwt\\app.domain\\entities\\userrefreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA95269-34A8-4F67-B41C-F5EFDFAD7D5C}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\userrefreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA95269-34A8-4F67-B41C-F5EFDFAD7D5C}|App.Domain\\App.Domain.csproj|d:\\hfb\\github\\dotnet-jwt\\app.domain\\extensions\\domainextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA95269-34A8-4F67-B41C-F5EFDFAD7D5C}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\extensions\\domainextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA95269-34A8-4F67-B41C-F5EFDFAD7D5C}|App.Domain\\App.Domain.csproj|d:\\hfb\\github\\dotnet-jwt\\app.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA95269-34A8-4F67-B41C-F5EFDFAD7D5C}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA95269-34A8-4F67-B41C-F5EFDFAD7D5C}|App.Domain\\App.Domain.csproj|d:\\hfb\\github\\dotnet-jwt\\app.domain\\options\\clientoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA95269-34A8-4F67-B41C-F5EFDFAD7D5C}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\options\\clientoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA95269-34A8-4F67-B41C-F5EFDFAD7D5C}|App.Domain\\App.Domain.csproj|d:\\hfb\\github\\dotnet-jwt\\app.domain\\options\\customtokenoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA95269-34A8-4F67-B41C-F5EFDFAD7D5C}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\options\\customtokenoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56149A7D-2E10-44E6-A481-2D6B2F656BCC}|App.API\\App.API.csproj|d:\\hfb\\github\\dotnet-jwt\\app.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{56149A7D-2E10-44E6-A481-2D6B2F656BCC}|App.API\\App.API.csproj|solutionrelative:app.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|d:\\hfb\\github\\dotnet-jwt\\app.application\\helpers\\signhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|solutionrelative:app.application\\helpers\\signhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56149A7D-2E10-44E6-A481-2D6B2F656BCC}|App.API\\App.API.csproj|d:\\hfb\\github\\dotnet-jwt\\app.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{56149A7D-2E10-44E6-A481-2D6B2F656BCC}|App.API\\App.API.csproj|solutionrelative:app.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|d:\\hfb\\github\\dotnet-jwt\\app.application\\extensions\\applicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|solutionrelative:app.application\\extensions\\applicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F259752D-315C-4A98-A4AB-7EB037011450}|App.Persistence\\App.Persistence.csproj|d:\\hfb\\github\\dotnet-jwt\\app.persistence\\userrefreshtokens\\userrefreshtokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F259752D-315C-4A98-A4AB-7EB037011450}|App.Persistence\\App.Persistence.csproj|solutionrelative:app.persistence\\userrefreshtokens\\userrefreshtokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|d:\\hfb\\github\\dotnet-jwt\\app.application\\features\\user\\usermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|solutionrelative:app.application\\features\\user\\usermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|d:\\hfb\\github\\dotnet-jwt\\app.application\\features\\products\\productmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|solutionrelative:app.application\\features\\products\\productmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|d:\\hfb\\github\\dotnet-jwt\\app.application\\features\\products\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6D9C40B-C3ED-4AD7-AA63-64676EDA9FE5}|App.Application\\App.Application.csproj|solutionrelative:app.application\\features\\products\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F259752D-315C-4A98-A4AB-7EB037011450}|App.Persistence\\App.Persistence.csproj|d:\\hfb\\github\\dotnet-jwt\\app.persistence\\userapps\\userappconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F259752D-315C-4A98-A4AB-7EB037011450}|App.Persistence\\App.Persistence.csproj|solutionrelative:app.persistence\\userapps\\userappconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F259752D-315C-4A98-A4AB-7EB037011450}|App.Persistence\\App.Persistence.csproj|d:\\hfb\\github\\dotnet-jwt\\app.persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F259752D-315C-4A98-A4AB-7EB037011450}|App.Persistence\\App.Persistence.csproj|solutionrelative:app.persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA95269-34A8-4F67-B41C-F5EFDFAD7D5C}|App.Domain\\App.Domain.csproj|d:\\hfb\\github\\dotnet-jwt\\app.domain\\entities\\userapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA95269-34A8-4F67-B41C-F5EFDFAD7D5C}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\userapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 164,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Features\\User\\UserService.cs",
+              "RelativeDocumentMoniker": "App.Application\\Features\\User\\UserService.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Features\\User\\UserService.cs",
+              "RelativeToolTip": "App.Application\\Features\\User\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T22:37:36.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Features\\Authentication\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "App.Application\\Features\\Authentication\\AuthenticationService.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Features\\Authentication\\AuthenticationService.cs",
+              "RelativeToolTip": "App.Application\\Features\\Authentication\\AuthenticationService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA9wGAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T22:12:54.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRefreshToken.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Domain\\Entities\\UserRefreshToken.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Entities\\UserRefreshToken.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Domain\\Entities\\UserRefreshToken.cs",
+              "RelativeToolTip": "App.Domain\\Entities\\UserRefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:35:43.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Features\\Token\\ITokenService.cs",
+              "RelativeDocumentMoniker": "App.Application\\Features\\Token\\ITokenService.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Features\\Token\\ITokenService.cs",
+              "RelativeToolTip": "App.Application\\Features\\Token\\ITokenService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:36:28.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Features\\Authentication\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "App.Application\\Features\\Authentication\\IAuthenticationService.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Features\\Authentication\\IAuthenticationService.cs",
+              "RelativeToolTip": "App.Application\\Features\\Authentication\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T22:12:34.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DomainExtensions.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Domain\\Extensions\\DomainExtensions.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Extensions\\DomainExtensions.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Domain\\Extensions\\DomainExtensions.cs",
+              "RelativeToolTip": "App.Domain\\Extensions\\DomainExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:54:03.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomTokenOption.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Domain\\Options\\CustomTokenOption.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Options\\CustomTokenOption.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Domain\\Options\\CustomTokenOption.cs",
+              "RelativeToolTip": "App.Domain\\Options\\CustomTokenOption.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:51:50.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SignHelper.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Helpers\\SignHelper.cs",
+              "RelativeDocumentMoniker": "App.Application\\Helpers\\SignHelper.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Helpers\\SignHelper.cs",
+              "RelativeToolTip": "App.Application\\Helpers\\SignHelper.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T21:10:00.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.API\\appsettings.json",
+              "RelativeDocumentMoniker": "App.API\\appsettings.json",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.API\\appsettings.json",
+              "RelativeToolTip": "App.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T20:45:37.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationExtensions.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Extensions\\ApplicationExtensions.cs",
+              "RelativeDocumentMoniker": "App.Application\\Extensions\\ApplicationExtensions.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Extensions\\ApplicationExtensions.cs",
+              "RelativeToolTip": "App.Application\\Extensions\\ApplicationExtensions.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:41:44.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserMappingProfile.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Features\\User\\UserMappingProfile.cs",
+              "RelativeDocumentMoniker": "App.Application\\Features\\User\\UserMappingProfile.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Features\\User\\UserMappingProfile.cs",
+              "RelativeToolTip": "App.Application\\Features\\User\\UserMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:40:34.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductMappingProfile.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Features\\Products\\ProductMappingProfile.cs",
+              "RelativeDocumentMoniker": "App.Application\\Features\\Products\\ProductMappingProfile.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Features\\Products\\ProductMappingProfile.cs",
+              "RelativeToolTip": "App.Application\\Features\\Products\\ProductMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:39:23.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Features\\Products\\Dto\\ProductDto.cs",
+              "RelativeDocumentMoniker": "App.Application\\Features\\Products\\Dto\\ProductDto.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Features\\Products\\Dto\\ProductDto.cs",
+              "RelativeToolTip": "App.Application\\Features\\Products\\Dto\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:38:08.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "App.Persistence\\AppDbContext.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "App.Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAgAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:34:16.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserAppConfiguration.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Persistence\\UserApps\\UserAppConfiguration.cs",
+              "RelativeDocumentMoniker": "App.Persistence\\UserApps\\UserAppConfiguration.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Persistence\\UserApps\\UserAppConfiguration.cs",
+              "RelativeToolTip": "App.Persistence\\UserApps\\UserAppConfiguration.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:32:52.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserApp.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Domain\\Entities\\UserApp.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Entities\\UserApp.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Domain\\Entities\\UserApp.cs",
+              "RelativeToolTip": "App.Domain\\Entities\\UserApp.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:32:05.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserRefreshTokenConfiguration.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Persistence\\UserRefreshTokens\\UserRefreshTokenConfiguration.cs",
+              "RelativeDocumentMoniker": "App.Persistence\\UserRefreshTokens\\UserRefreshTokenConfiguration.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Persistence\\UserRefreshTokens\\UserRefreshTokenConfiguration.cs",
+              "RelativeToolTip": "App.Persistence\\UserRefreshTokens\\UserRefreshTokenConfiguration.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:29:04.063Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 192,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Entities\\Product.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "App.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:38:40.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientOptions.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Domain\\Options\\ClientOptions.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Options\\ClientOptions.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Domain\\Options\\ClientOptions.cs",
+              "RelativeToolTip": "App.Domain\\Options\\ClientOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T21:53:34.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Features\\Token\\TokenService.cs",
+              "RelativeDocumentMoniker": "App.Application\\Features\\Token\\TokenService.cs",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.Application\\Features\\Token\\TokenService.cs",
+              "RelativeToolTip": "App.Application\\Features\\Token\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T21:15:45.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\HFB\\Github\\DotNet-JWT\\App.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "App.API\\appsettings.Development.json",
+              "ToolTip": "D:\\HFB\\Github\\DotNet-JWT\\App.API\\appsettings.Development.json",
+              "RelativeToolTip": "App.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T20:45:37.71Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
