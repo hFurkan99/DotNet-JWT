@@ -3,6 +3,10 @@ using FluentValidation.AspNetCore;
 using FluentValidation;
 using System.Reflection;
 using Microsoft.AspNetCore.Mvc;
+using App.Application.Features.Authentication;
+using App.Application.Features.User;
+using App.Application.Features.Token;
+using App.Application.Features.Products;
 
 namespace App.Application.Extensions
 {
@@ -13,7 +17,10 @@ namespace App.Application.Extensions
             services.Configure<ApiBehaviorOptions>(options => options.SuppressModelStateInvalidFilter = true);
 
 
-            //services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IAuthenticationService, AuthenticationService>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<ITokenService, TokenService>();
 
             services.AddFluentValidationAutoValidation();
             services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());

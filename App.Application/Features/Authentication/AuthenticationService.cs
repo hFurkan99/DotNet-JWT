@@ -2,8 +2,10 @@
 using App.Application.Features.Authentication.Login;
 using App.Application.Features.Token;
 using App.Application.Features.Token.Dto;
+using App.Application.Features.User.Dto;
 using App.Domain.Entities;
 using App.Domain.Options;
+using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using System.Net;
@@ -15,7 +17,8 @@ namespace App.Application.Features.Authentication
         ITokenService tokenService,
         IUnitOfWork unitOfWork,
         IGenericRepository<UserRefreshToken, long> userRefreshTokenRepository,
-        IOptions<List<ClientOptions>> clientOptions) : IAuthenticationService
+        IOptions<List<ClientOptions>> clientOptions,
+        IMapper mapper) : IAuthenticationService
     {
         private readonly List<ClientOptions> clientOptions = clientOptions.Value;
 
@@ -31,7 +34,9 @@ namespace App.Application.Features.Authentication
             if (!await userManager.CheckPasswordAsync(user, request.Password))
                 return ServiceResult<TokenDto>.Fail("Email or password is wrong.");
 
-            var token = tokenService.CreateToken(user);
+            var userDto = mapper.Map<UserAppDto>(user);
+
+            var token = tokenService.CreateToken(userDto);
 
             var userRefreshToken = await userRefreshTokenRepository.FirstOrDefaultAsync(x => x.UserId == user.Id);
                 
@@ -80,7 +85,9 @@ namespace App.Application.Features.Authentication
             if (user == null)
                 return ServiceResult<TokenDto>.Fail("User not found.", HttpStatusCode.NotFound);
 
-            var token = tokenService.CreateToken(user);
+            var userDto = mapper.Map<UserAppDto>(user);
+
+            var token = tokenService.CreateToken(userDto);
 
             existRefreshToken.Code = token.RefreshToken;
             existRefreshToken.ExpireDate = token.RefreshTokenExpireDate;

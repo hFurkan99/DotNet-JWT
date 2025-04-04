@@ -1,6 +1,8 @@
 ﻿using App.Application.Contracts.Persistence;
+using App.Domain.Entities;
 using App.Domain.Options;
 using App.Persistence.Interceptors;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -26,8 +28,13 @@ namespace App.Persistence.Extensions
             //services.AddScoped<IProductRepository, ProductRepository>();
 
             services.AddScoped(typeof(IGenericRepository<,>), typeof(GenericRepository<,>));
-
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            services.AddIdentity<UserApp, IdentityRole<long>>(options =>
+            {
+                options.User.RequireUniqueEmail = true;
+                options.Password.RequireNonAlphanumeric = false;
+            }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
             return services;
         }

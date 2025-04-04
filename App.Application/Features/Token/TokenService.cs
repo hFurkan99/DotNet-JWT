@@ -9,6 +9,7 @@ using App.Application.Helpers;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using JwtRegisteredClaimNames = Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames;
+using App.Application.Features.User.Dto;
 
 namespace App.Application.Features.Token
 {
@@ -16,7 +17,7 @@ namespace App.Application.Features.Token
     {
         private readonly CustomTokenOption tokenOption = tokenOption.Value;
 
-        public TokenDto CreateToken(UserApp userApp)
+        public TokenDto CreateToken(UserAppDto dto)
         {
             var accessTokenExpiration = DateTime.UtcNow.AddMinutes(tokenOption.AccessTokenExpiration);
             var refreshTokenExpiration = DateTime.UtcNow.AddMinutes(tokenOption.RefreshTokenExpiration);
@@ -27,7 +28,7 @@ namespace App.Application.Features.Token
             JwtSecurityToken jwtSecurityToken = new(issuer: tokenOption.Issuer,
                 expires: accessTokenExpiration,
                 notBefore: DateTime.UtcNow,
-                claims: GetClaims(userApp, tokenOption.Audience),
+                claims: GetClaims(dto, tokenOption.Audience).Result,
                 signingCredentials: signingCredentials);
 
             var handler = new JwtSecurityTokenHandler();
@@ -65,17 +66,22 @@ namespace App.Application.Features.Token
             return Convert.ToBase64String(numberByte);
         }
 
-        private IEnumerable<Claim> GetClaims(UserApp userApp, List<string> audiences)
+        private async Task<IEnumerable<Claim>> GetClaims(UserAppDto dto, List<string> audiences)
         {
+            var userApp = await userManager.FindByIdAsync(dto.Id.ToString()) ?? throw new HttpRequestException("User not found");
+
+            var userRoles = await userManager.GetRolesAsync(userApp!);
+
             var claimList = new List<Claim>
             {
-                new(ClaimTypes.NameIdentifier, userApp.Id.ToString()),
-                new(JwtRegisteredClaimNames.Email, userApp.Email!),
-                new(ClaimTypes.Name, userApp.UserName!),
+                new(ClaimTypes.NameIdentifier, dto.Id.ToString()),
+                new(JwtRegisteredClaimNames.Email, dto.Email!),
+                new(ClaimTypes.Name, dto.Username!),
                 new(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
             };
 
             claimList.AddRange(audiences.Select(x => new Claim(JwtRegisteredClaimNames.Aud, x)));
+            claimList.AddRange(userRoles.Select(x => new Claim(ClaimTypes.Role, x)));
 
             return claimList;
         }

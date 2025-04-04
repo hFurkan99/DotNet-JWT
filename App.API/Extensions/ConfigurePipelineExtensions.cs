@@ -20,6 +20,7 @@ namespace App.API.Extensions
                 option.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:3000");
             });
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             return app;

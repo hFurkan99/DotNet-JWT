@@ -7,5 +7,6 @@ namespace App.Application.Features.User
     {
         Task<ServiceResult<UserAppDto>> CreateUserAsync(CreateuserRequest request);
         Task<ServiceResult<UserAppDto>> GetUserByUsernameAsync(string username);
+        Task<ServiceResult> CreateUserRolesAsync(string username);
     }
 }
